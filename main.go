@@ -1,6 +1,10 @@
 package main
 
-import "golang.org/x/crypto/bcrypt"
+import (
+	"flag"
+	"fmt"
+	"golang.org/x/crypto/bcrypt"
+)
 
 func main() {
 	var a string
