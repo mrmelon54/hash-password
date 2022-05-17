@@ -1,4 +1,5 @@
 .PHONY: build
 
 build:
-	go build -o "hash-password" .
+	mkdir dist/ -p
+	go build -o ./dist/hash-password .
